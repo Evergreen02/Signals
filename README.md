@@ -9,9 +9,9 @@ docker build -t signals:latest .
 
 2. Run docker container.
  - Note that you can insert absolute path to the directory instead of $PWD
- - Use INPUT_PATH variable to specify the input file
- - Use OUTPUT_PATH variable to specify the output file.
-Or by default will be used the filename from INPUT_PATH
+ - Use INPUT_PATH variable to specify the input parquet
+ - Use OUTPUT_PATH variable to specify the output parquet
+Or by default will be used parquet from INPUT_PATH with postfix '_result'
 
 Version 1 - with OUTPUT_PATH:
 ```
